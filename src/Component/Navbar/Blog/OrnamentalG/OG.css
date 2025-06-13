@@ -1,0 +1,106 @@
+.og-container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .og-title, .og-section-title {
+    font-size: 2rem;
+    color: #4a148c;
+    margin-bottom: 10px;
+  }
+  
+  .og-big-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .og-description, .og-sub-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .og-features {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .og-features li {
+    background: #f3e5f5;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+  
+  .og-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .og-info-table th,
+  .og-info-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .og-info-table th {
+    background: #4a148c;
+    color: white;
+  }
+  
+  .og-info-table td {
+    background: #f3e5f5;
+  }
+  
+  .og-step {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .og-step-title {
+    font-size: 1.5rem;
+    color: #4a148c;
+    margin-bottom: 10px;
+  }
+  
+  .og-details {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .og-details li {
+    margin-bottom: 8px;
+  }
+ 
+  .og-final-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .main-class-og{
+    background-color: rgb(243, 217, 217);
+  }
+  

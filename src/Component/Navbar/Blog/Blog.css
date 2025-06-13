@@ -1,0 +1,122 @@
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 120px;
+}
+
+.blog-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.blog-card {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+  height: 400px; 
+}
+
+.blog-card img {
+  width: 100%;
+  height: 100%; 
+  display: block;
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(51, 169, 22, 0.6);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+.blog-card:hover .text-overlay {
+  opacity: 1;
+}
+
+.text-overlay h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.more-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.more-btn:hover {
+  background-color: #45a049;
+}
+
+.go-home-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.go-home-btn button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.go-home-btn button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-card {
+    width: 48%; 
+    height: 450px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-card {
+    width: 100%; 
+    height: 500px; 
+  }
+
+  .go-home-btn {
+    margin-top: 30px;
+  }
+
+  .blog-card .text-overlay {
+    padding: 15px; 
+  }
+}
+
+.blog-card .name-text {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  padding: 10px 0;
+  text-align: center; 
+}

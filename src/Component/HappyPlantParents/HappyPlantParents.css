@@ -1,0 +1,111 @@
+.happy-plant-parents {
+    background-color: #eccece;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .happy-plant-parents h2 {
+    font-size: 32px;
+    color: #2e7d32;
+    margin-bottom: 10px;
+  }
+  
+  .happy-plant-parents p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .review-card h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .review-card .rating {
+    font-size: 16px;
+    color: #f39c12;
+  }
+  
+  .review-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .review-form-container {
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  .review-form-container h3 {
+    font-size: 24px;
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+  
+  .review-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .review-form-container input,
+  .review-form-container select,
+  .review-form-container textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .review-form-container button {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-form-container button:hover {
+    background-color: #228b22;
+  }
+  
+  @media (max-width: 768px) {
+    .reviews-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .review-card {
+      width: 90%;
+    }
+  }
+  
+  .form-title {
+    font-size: 24px;
+    color: #2e7d32;
+    margin-bottom: 20px;
+    text-align: center;
+  }

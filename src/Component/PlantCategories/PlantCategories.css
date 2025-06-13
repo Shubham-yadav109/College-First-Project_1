@@ -1,0 +1,102 @@
+.circular-container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e8f7fa;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  overflow: hidden;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.circle-row {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+  justify-content: center; 
+  scroll-behavior: smooth;
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
+  width: 100%; 
+}
+
+@media (max-width: 768px) {
+  .circle-row {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    justify-content: flex-start; 
+    overflow-x: auto; 
+    -ms-overflow-style: auto; 
+    scrollbar-width: thin; 
+    -webkit-overflow-scrolling: touch;
+    width: 100%; 
+  }
+}
+
+.circle {
+  min-width: 220px; 
+  height: 220px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  flex-shrink: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle-image-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden; 
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle-name {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #34495e;
+}
+
+@media (max-width: 768px) {
+  .circle {
+    min-width: 220px;
+    height: 220px;
+  }
+
+  .circle-name {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .circle-row {
+    overflow-x: hidden; 
+  }
+}
+
+@media (min-width: 769px) {
+  .circle-row {
+    overflow-x: auto; 
+    scrollbar-width: thin; 
+    -webkit-overflow-scrolling: touch; 
+  }
+}

@@ -1,0 +1,114 @@
+
+.gl-main-container{
+  background-color: rgb(147, 207, 187)
+}
+.gl-container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: white;
+  }
+
+
+  .gl-title, .gl-section-title {
+    font-size: 2rem;
+    color: #4a148c;
+    margin-bottom: 10px;
+  }
+  
+
+  .gl-big-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .gl-description, .gl-sub-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+ 
+  .gl-features {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .gl-features li {
+    background: #f3e5f5;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+
+  .gl-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .gl-info-table th,
+  .gl-info-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .gl-info-table th {
+    background: #4a148c;
+    color: white;
+  }
+  
+  .gl-info-table td {
+    background: #f3e5f5;
+  }
+  
+
+  .gl-step {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gl-step-title {
+    font-size: 1.5rem;
+    color: #4a148c;
+    margin-bottom: 10px;
+  }
+  
+  .gl-details {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .gl-details li {
+    margin-bottom: 8px;
+  }
+
+  .gl-final-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .main-class-gl{
+    background-color: rgb(243, 217, 217);
+  }

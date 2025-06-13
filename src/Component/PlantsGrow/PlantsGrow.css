@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.heart-container {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.heart-left,
+.heart-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+}
+
+.heart-right {
+  transform: rotate(45deg);
+}
+
+.text {
+  font-size: 24px;
+  margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+}

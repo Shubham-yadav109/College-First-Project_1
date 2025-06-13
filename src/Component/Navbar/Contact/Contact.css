@@ -1,0 +1,144 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .contact-form {
+    flex: 1;
+    max-width: 450px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .success-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .blue-tick {
+    font-size: 40px;
+    color: #007BFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-right {
+    flex: 1;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  .contact-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .scan-btn,
+  .whatsapp-btn,
+  .home-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .scan-btn {
+    background-color: #FF9800;
+    color: white;
+  }
+  
+  .scan-btn:hover {
+    background-color: #e68900;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #1ebe57;
+  }
+  
+  .contact-info {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .home-btn {
+    background-color: #0bab38;
+    color: white;
+  }
+
+  .home-btn:hover {
+    background-color: #210b9d;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-form,
+    .contact-right {
+      max-width: 100%;
+    }
+  }

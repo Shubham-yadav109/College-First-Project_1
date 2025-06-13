@@ -1,0 +1,55 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .slider-container {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .gift-button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    background-color: #ff4081;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gift-button:hover {
+    background-color: #e91e63;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .gift-button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  

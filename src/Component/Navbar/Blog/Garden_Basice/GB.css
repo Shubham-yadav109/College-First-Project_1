@@ -1,0 +1,104 @@
+.gb-container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gb-title, .gb-section-title {
+  font-size: 2rem;
+  color: #4a148c;
+  margin-bottom: 10px;
+}
+
+.gb-big-image {
+  width: 100%;
+  max-width: 600px; 
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.gb-description, .gb-sub-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.gb-features {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.gb-features li {
+  background: #f3e5f5;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.gb-info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.gb-info-table th,
+.gb-info-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.gb-info-table th {
+  background: #4a148c;
+  color: white;
+}
+
+.gb-info-table td {
+  background: #f3e5f5;
+}
+
+.gb-step {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gb-step-title {
+  font-size: 1.5rem;
+  color: #4a148c;
+  margin-bottom: 10px;
+}
+
+.gb-details {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.gb-details li {
+  margin-bottom: 8px;
+}
+
+.gb-final-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-top: 20px;
+  text-align: center;
+}
+.main-class-gb{
+  background-color: rgb(243, 217, 217);
+}

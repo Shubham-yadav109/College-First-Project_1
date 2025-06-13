@@ -1,0 +1,70 @@
+
+.Main-Class-Name{
+    background-color: #a7b9e7;
+}
+.rewards-page {
+    padding: 20px;
+  
+    min-height: 100vh;
+  }
+  
+  .rewards-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #2e3a59;
+  }
+  
+  .rewards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .reward-card {
+    background: linear-gradient(135deg, #e679c0 0%, #ffffff 100%);
+    width: 320px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reward-strip {
+    background: #0b8457;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .reward-details {
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .reward-description {
+    margin-bottom: 10px;
+  }
+  
+  .reward-date {
+    font-size: 0.85rem;
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .rewards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .reward-card {
+      width: 90%;
+    }
+  }
+  

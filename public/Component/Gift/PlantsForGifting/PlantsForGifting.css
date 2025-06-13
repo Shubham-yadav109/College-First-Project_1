@@ -1,0 +1,53 @@
+.gifting-plants-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .gifting-plants-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .gift-item {
+    margin-bottom: 20px;
+  }
+  
+  .gift-item h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align to the left */
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px; /* Space between icon and heading */
+    color: green;
+  }
+  
+  .gift-item p {
+    font-size: 25px;
+    color: black;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .gift-item h3 {
+      font-size: 18px;
+    }
+  
+    .gift-item p {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gift-item h3 {
+      font-size: 16px;
+    }
+  
+    .gift-item p {
+      font-size: 14px;
+    }
+  }
+  

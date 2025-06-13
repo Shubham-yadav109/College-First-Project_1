@@ -1,0 +1,182 @@
+/* General Container */
+.gm-container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Title Styles */
+.gm-title, .gm-section-title {
+    font-size: 2rem;
+    color: #4a148c;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Image Styles */
+.gm-big-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Text Styles */
+.gm-description, .gm-sub-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Features List */
+.gm-features {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+.gm-features li {
+    background: #f3e5f5;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+/* Tables */
+.gm-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.gm-info-table th,
+.gm-info-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.gm-info-table th {
+    background: #4a148c;
+    color: white;
+}
+
+.gm-info-table td {
+    background: #f3e5f5;
+}
+
+/* Steps Section */
+.gm-step {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Step Titles */
+.gm-step-title {
+    font-size: 1.5rem;
+    color: #4a148c;
+    margin-bottom: 10px;
+}
+
+/* Details List */
+.gm-details {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    text-align: left;
+    width: 100%;
+}
+
+.gm-details li {
+    margin-bottom: 8px;
+}
+
+/* Final Text */
+.gm-final-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ✅ RESPONSIVE DESIGN - Mobile & Tablet Support */
+@media (max-width: 768px) {
+    .gm-title, .gm-section-title {
+        font-size: 1.8rem;
+    }
+
+    .gm-description, .gm-sub-text {
+        font-size: 1.1rem;
+    }
+
+    .gm-features, .gm-details {
+        font-size: 1rem;
+    }
+
+    .gm-info-table th, .gm-info-table td {
+        padding: 8px;
+    }
+
+    .gm-step {
+        padding: 10px;
+    }
+
+    .gm-step-title {
+        font-size: 1.3rem;
+    }
+
+    .gm-final-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .gm-title, .gm-section-title {
+        font-size: 1.6rem;
+    }
+
+    .gm-description, .gm-sub-text {
+        font-size: 1rem;
+    }
+
+    .gm-features, .gm-details {
+        font-size: 0.9rem;
+    }
+
+    .gm-info-table th, .gm-info-table td {
+        padding: 6px;
+    }
+
+    .gm-step {
+        padding: 8px;
+    }
+
+    .gm-step-title {
+        font-size: 1.2rem;
+    }
+
+    .gm-final-text {
+        font-size: 1.1rem;
+    }
+}
+.main-class-gm{
+    background-color: rgb(243, 217, 217);
+  }

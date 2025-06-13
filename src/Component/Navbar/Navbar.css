@@ -1,0 +1,150 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0ea074;
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.tree-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.menu-item:hover {
+  color: #ffdd57;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #0ea074;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.mobile-menu .menu-item {
+  padding: 10px;
+  width: 100%;
+  display: block;
+}
+
+.search-container {
+  display: flex;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 1001;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; 
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-results {
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.search-item {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-item:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+ 
+  }
+
+  .menu-button {
+    display: block;
+
+
+  }
+
+  .search-container {
+    display: none;
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar-icons .icon {
+    font-size: 18px;
+  }
+
+  .navbar-icons .icon:hover {
+    font-size: 22px;
+  }
+
+  .search-container.active {
+    display: flex;
+  }
+}
+
+
+

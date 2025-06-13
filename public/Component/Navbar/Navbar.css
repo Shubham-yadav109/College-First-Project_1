@@ -1,0 +1,403 @@
+/* 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0ea074;
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.tree-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-item:hover {
+  color: #ffdd57;
+}
+
+.hover-text {
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #ffdd57;
+}
+
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-dropdown {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #0ea074;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  z-index: 1001;  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+.dropdown-item {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  color: #ffdd57;
+}
+
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  display: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.search-input.visible {
+  display: block;
+}
+
+
+/* need search box in manu-bix uncommect this code */
+
+/* @media (max-width: 768px) {
+  .search-input {
+    display: none;
+    width: 100%;
+  }
+
+  .mobile-dropdown .search-input {
+    display: block;
+    margin: 5px 0;
+  }
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* new try css */
+
+
+/* Navbar General Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo h1 {
+  margin-left: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-item-container {
+  position: relative; /* For positioning dropdown */
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu-item:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: none; /* Initially hidden */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-container:hover .dropdown {
+  display: block; /* Show dropdown on hover */
+}
+
+.dropdown li {
+  margin: 5px 0;
+}
+
+.dropdown li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.dropdown li a:hover {
+  background-color: #555;
+  border-radius: 3px;
+}
+
+/* Navbar Icons */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer
+}  
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0ea074;
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.tree-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-item:hover {
+  color: #ffdd57;
+}
+
+.hover-text {
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #ffdd57;
+}
+
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-dropdown {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #0ea074;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  z-index: 1001; /* Ensure the dropdown stays above the image slider */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+
+}
+
+.dropdown-item {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  color: #ffdd57;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  display: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.search-input.visible {
+  display: block;
+}
+
+
+/* need search box in manu-bix uncommect this code */
+
+/* @media (max-width: 768px) {
+  .search-input {
+    display: none;
+    width: 100%;
+  }
+
+  .mobile-dropdown .search-input {
+    display: block;
+    margin: 5px 0;
+  }
+} */
